@@ -50,7 +50,7 @@ header ul {
   line-height: 20px;  
   display: block; /* Jeśli jego rodzic jest pod kursorem, ustaw go jako element blokowy - widoczny */
 }
-.menu > li > .dziubek > li {
+.dziubek > li {
   border-bottom: 1px solid #000000;
   border-left: 1px solid #000000;
 }
