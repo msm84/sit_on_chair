@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   var box1 = document.querySelector('.box1');
   var box2 = document.querySelector('.box2');
-  var dziubek = document.querySelector('.menu>li>.dziubek');
+  //var dziubek = document.querySelector('.menu>li>.dziubek');
 
 
   box1.addEventListener('mouseover', function(event) {
@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function() {
     underlineRight.style.display = "block";
   });
 
-  dziubek.parentElement.addEventListener('mouseover', function() {
-    document.querySelector('.menu>li>ul.dziubek').style.display = "block";
-  });
+  // dziubek.parentElement.addEventListener('mouseover', function() {
+  //   document.querySelector('.menu>li>ul.dziubek').style.display = "block";
+  // });
 
 });
 

@@ -30,7 +30,7 @@ header p, header ul {
   float: right;
 }
 
-.menu li {
+.menu>li {
   display: inline-block;
   margin-left: 10px;
   cursor: pointer;
@@ -43,16 +43,18 @@ header p, header ul {
   left: 0;
   width: 100px;
   height: 65px;
+  z-index: 1;
   display: none;
   /* Standardowo jest niewidoczny */
 }
 
-
-/*.menu>li:hover>.dziubek {
+.menu>li:hover>.dziubek {
   line-height: 20px;
   display: block;
-  /* Jeśli jego rodzic jest pod kursorem, ustaw go jako element blokowy - widoczny
-}*/
+}
+
+
+/*Jeśli jego rodzic jest pod kursorem, ustaw go jako element blokowy - widoczny*/
 
 .dziubek>li {
   border-bottom: 1px solid #000000;
